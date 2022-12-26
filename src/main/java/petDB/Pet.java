@@ -9,10 +9,10 @@ package petDB;
  */
 public class Pet {
   private String name;
-  private String age;
+  private int age;
   private int ID;
 
-  public Pet(String pet_name, String pet_age, int pet_ID) {
+  public Pet(String pet_name, int pet_age, int pet_ID) {
     name = pet_name;
     age = pet_age;
     ID = pet_ID;
@@ -22,7 +22,7 @@ public class Pet {
     return name;
   }
 
-  public String getAge() {
+  public int getAge() {
     return age;
   }
   public int getID(){
@@ -32,7 +32,7 @@ public class Pet {
     name = new_name;
   }
 
-  public void setAge(String new_age) {
+  public void setAge(int new_age) {
     age = new_age;
   }
   public void setID(int new_ID) {

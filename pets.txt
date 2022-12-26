@@ -1,0 +1,6 @@
+0|Cat|1
+1|Dog|22
+2|Cat|3
+3|Parrot|3
+4|Animal|4
+5|Doge|4
